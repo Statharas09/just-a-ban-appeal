@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+h1{
+    background-color: purple;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 10%;
+
+    animation: pulse 15s infinite;
+}
+
+main {
+    margin: 10%;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#sub {
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-width: 5px;
+    border-radius: 25%;
+    background-color: darkmagenta;
+    cursor: pointer;
+    animation: pulse 3s infinite;
+}
+
+
+@keyframes pulse{
+0%{
+    transform: scale(1);
+}
+50%{
+    transform: scale(1.1);
+}
+100% {
+    transform: scale(1);
+}
+}
